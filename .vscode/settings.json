@@ -1,0 +1,11 @@
+{
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/Arduino-CMake-Toolchain/Arduino-toolchain.cmake"
+    },
+    "cmake.buildToolArgs": [
+        "SERIAL_PORT=/dev/ttyArduino"
+    ],
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": true
+}
