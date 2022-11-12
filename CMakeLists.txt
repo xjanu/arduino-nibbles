@@ -12,3 +12,9 @@ add_executable(cereal)
 target_sources(cereal PUBLIC "src/cereal.cpp")
 target_link_arduino_libraries(cereal PRIVATE core)
 target_enable_arduino_upload(cereal)
+
+
+add_executable(i2c)
+target_sources(i2c PUBLIC "src/i2c.cpp")
+target_link_arduino_libraries(i2c PRIVATE core Wire)
+target_enable_arduino_upload(i2c)
